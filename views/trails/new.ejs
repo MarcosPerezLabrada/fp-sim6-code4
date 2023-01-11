@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trail Tracker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/stylesheets/new.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" id="logo">Trail Tracker</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          
+          <% if (user) { %>
+            <li><a href="/logout" class="login-logout">Log Out</a></li>
+          <% } else { %>
+            <li><a href="/auth/google" class="login-logout"> Login with Google</a></li>
+          <% } %>  
+
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container-pic">
+      <img src="/images/bikepage.png" class="image">
+
+    <div class="row">
+      <div class="col s3 side-nav">
+        <div class="section">
+        <% if (user) { %> 
+          <h5>Welcome<br><%= user.name %>!</h5>
+            <% } else { %> 
+              <h5>Sign in - index.ejs</h5>
+              <% } %> 
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+        <p><a href="/trails" class="waves-effect waves-light btn-large side-nav-buttons">All Trails</a></p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <p><a href="/trails/new" class="waves-effect waves-light btn-large side-nav-buttons">Add New Trail</a></p>
+      </div>
+      <div class="divider"></div>
+      </div>
+
+      <div class="container page-container">
+        <div class="col s9 rate-content">
+
+          <div class="divider"></div>
+        <div class="section">
+
+          <form id="new-trail-form" action="/trails" method="POST">
+          
+                <label>Trail Name:
+                  <input type="text" name="trailName" id="trail-name" />
+                </label>
+                <label>Location (city, State):
+                  <input type="text" name="location" id="location" />
+                </label>
+                <label>Trail Length (Mile):
+                  <input type="number" step="0.1" name="trailLength" min="0" max="9999" id="length"/></label><br><br>
+                <input type="submit" value="Add New Trail" id="add-trail-button-value" class="waves-effect waves-light btn-large add-trail-button">
+
+            </form>
+
+          </div>
+          </div>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>

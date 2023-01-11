@@ -1,0 +1,115 @@
+html, * {
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  background-color: rgb(72, 112, 125);
+}
+
+.brand-logo {
+  margin-left: 15px;
+}
+
+#logo {
+  /* color:darksalmon; */
+  font-size: 38px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.login-logout {
+  color: darksalmon;
+  font-size: 29px;
+  padding-right: 20px;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: rgb(250, 242, 10);
+}
+
+.container-pic {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  display:block;
+  width: 100%;
+}
+
+.row {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.page-container {
+  display: flex;
+  align-content: space-between;
+}
+
+.side-nav {
+  background-color: rgba(101, 116, 96, 0.701);
+  border-radius: 10px;
+}
+
+.side-nav-buttons {
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.add-trail-button {
+  background-color: rgba(98, 98, 128, 0.666);
+  font-size: 20px;
+}
+
+#add-trail-button-value {
+  color: whitesmoke;
+  padding-top: 15px;
+}
+
+#new-trail-form label {
+  font-size: 26px;
+  color: rgb(220, 194, 145);
+}
+
+#trail-name,
+#location,
+#length {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(199, 242, 98);
+}
+
+.rate-content {
+  background-color: rgba(101, 116, 96, 0.701);
+  /* text-align:justify; */
+  border-radius: 10px;
+}
+
+.comment-content {
+  background-color: cornflowerblue;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.section div {
+  float: left;
+  padding-right: 6px;
+}
+
+.section label {
+  font-size: 20px;
+  color: darkblue;
+}
+
+.dropdown-rate {
+  width: 100px;
+}
