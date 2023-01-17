@@ -48,6 +48,7 @@ Whether you're a beginner or an experienced cyclist, Trail Tracker is the perfec
 - Our team used Jira to organize development of this application, from planning through deployment: 
 
 [Jira Board](https://santoalimo.atlassian.net/jira/software/projects/COD4/boards/1/roadmap?selectedIssue=COD4-1)
+
 ---
 ## Future Features
 - Host an API for users to access known trails and their information in their point of interest.
