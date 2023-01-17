@@ -54,5 +54,5 @@ Whether you're a beginner or an experienced cyclist, Trail Tracker is the perfec
 ## Future Features
 - Host an API for users to access known trails and their information in their point of interest.
 - Create a robust build automation stage that continuously updates and maintains dependencies.
-- Migrate database from MondoDB to AWS RDS.
+- Migrate database from MongoDB to AWS RDS.
 
