@@ -41,10 +41,12 @@ Whether you're a beginner or an experienced cyclist, Trail Tracker is the perfec
 * Adam C Wojdyla : Developer, Technologist
 ---
 ## Getting Started
-- Click on the link below and go ahead and login via Google (Top right of the application)
+- Click on the link below and go ahead and login via Google (Top right of the application):
+
 [Take me to Trail Tracker](http://code4trailtracker-env.eba-kzdmvpgv.us-east-1.elasticbeanstalk.com/)
 
 - Our team used Jira to organize development of this application, from planning through deployment: 
+
 [Jira Board](https://santoalimo.atlassian.net/jira/software/projects/COD4/boards/1/roadmap?selectedIssue=COD4-1)
 ---
 ## Future Features
