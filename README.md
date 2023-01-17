@@ -15,14 +15,24 @@ Whether you're a beginner or an experienced cyclist, Trail Tracker is the perfec
 ## Technologies Used
 
 ### Initial Planning, Database Modeling and Sprint Management
-Jira, LucidChart
+- Jira
+- LucidChart
 ### Web Framework
-- Node.js, Express.js, Mongoose, MongoDB, JavaScript, EJS, HTML/CSS
+- Node.js
+- Express.js
+- Mongoose
+- MongoDB 
+- EJS
+- JavaScript/HTML/CSS
 ### User Authorization and Authentication
-Google OAuth 2.0
-
+- Google OAuth 2.0
 ### CI (Continuous Integration), Security, Metrics, Cloud Services (AWS)
-GitGuardian, IAM (Group and User Management), CodePipeline, CodeDeply, Elastic BeanStalk, CloudWatch
+- GitGuardian
+- IAM (Group and User Management) 
+- CodePipeline
+- CodeDeply
+- Elastic BeanStalk
+- CloudWatch
 ---
 ## Our Team
 * Santoiga Alimo : Business Systems Analyst, Technologist
@@ -31,13 +41,10 @@ GitGuardian, IAM (Group and User Management), CodePipeline, CodeDeply, Elastic B
 * Adam C Wojdyla : Developer, Technologist
 ---
 ## Getting Started
-- Click on the link below to our deployed application. 
-- Go ahead and login via Google (Top right of the application)
-- [Trail Tracker](http://code4trailtracker-env.eba-kzdmvpgv.us-east-1.elasticbeanstalk.com/)
----
+- Click on the link below and go ahead and login via Google (Top right of the application)
+[Take me to Trail Tracker](http://code4trailtracker-env.eba-kzdmvpgv.us-east-1.elasticbeanstalk.com/)
 
-### Links to Trail Tracker and Trello Board
-Our team used a Jira to organize development of this application, from planning through deployment: 
+- Our team used Jira to organize development of this application, from planning through deployment: 
 [Jira Board](https://santoalimo.atlassian.net/jira/software/projects/COD4/boards/1/roadmap?selectedIssue=COD4-1)
 ---
 ## Future Features
