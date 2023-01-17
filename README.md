@@ -26,13 +26,14 @@ Whether you're a beginner or an experienced cyclist, Trail Tracker is the perfec
 - JavaScript/HTML/CSS
 ### User Authorization and Authentication
 - Google OAuth 2.0
-### CI (Continuous Integration), Security, Metrics, Cloud Services (AWS)
+### CI (Continuous Integration), Security, Testing, Cloud Services (AWS)
 - GitGuardian
 - IAM (Group and User Management) 
 - CodePipeline
-- CodeDeply
+- CodeBuild
 - Elastic BeanStalk
 - CloudWatch
+- Cypress
 ---
 ## Our Team
 * Santoiga Alimo : Business Systems Analyst, Technologist
